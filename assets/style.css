@@ -1,0 +1,95 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    flex: column;
+    line-height: 2.0;
+}
+
+h1 {
+    font-size: 2.0;
+    text-align: center;
+    margin: 0.5;
+}
+
+h2 {
+    font-size: 2.0;
+    text-align: center;
+    margin: 0.5;
+}
+
+h3 {
+    font-size: 1.5;
+    text-align: center;
+    margin: 0.5;
+}
+
+h4 {
+    font-size: 1.5;
+    text-align: center;
+    margin: 0.5;
+}
+
+h5 {
+    font-size: 1.5;
+    text-align: center;
+    margin: 0.5;
+}
+
+h6 {
+    font-size: 1.5;
+    text-align: center;
+    margin: 0.5;
+}
+
+p {
+    font-size: 1.0;
+    text-align: center;
+    margin: 0.5;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0.5;
+}
+
+.Quiz {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0.5;
+}
+
+.hide {
+    display: none;
+}
+
+#question-answer {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.highest-score {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: flex-start;
+    margin: 0.5;
+}
+
+.start-quiz {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0.5;
+}
