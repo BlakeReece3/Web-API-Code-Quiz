@@ -6,12 +6,13 @@ var answers = document.querySelector('#answers');
 var timer;
 var timerCount = 100;
 var time = document.querySelector('#time');
-
-
-
-
-
-
+var score = document.querySelector('#score');
+var initials = document.querySelector('#initials');
+var submit = document.querySelector('#submit');
+var highScores = document.querySelector('#highscores');
+var highScoreList = document.querySelector('#highscores-list');
+var goBack = document.querySelector('#go-back');
+var clear = document.querySelector('#clear-highscores');
 
 
 
@@ -43,6 +44,7 @@ var questions = [
         answer: 'Console.log'
     },
 ];
+
 
 var currentQuestion = 0;
 
