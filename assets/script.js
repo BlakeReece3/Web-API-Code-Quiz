@@ -1,3 +1,4 @@
+// Continuing to work on Javascript
 var start = document.querySelector('#start');
 var header = document.querySelector('#header');
 var questTitle = document.querySelector('#question-title');
