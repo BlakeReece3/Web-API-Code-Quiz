@@ -42,9 +42,21 @@ var questions = [
         title: 'A very useful tool used during development and debugging for printing content to the debugger is:',
         choices: ['JavaScript', 'Terminal / Bash', 'For Loops', 'Console.log'],
         answer: 'Console.log'
-    },
+    }
 ];
 
 
 var currentQuestion = 0;
 
+function showQuestion() {
+    var question = questions[currentQuestion];
+    questTitle.textContent = question.title;
+    answers.innerHTML = '';
+    question.choices.forEach(function(choice) {
+        var button = document.createElement('button');
+        button.setAttribute('value', choice);
+        button.textContent = choice;
+        button.onclick = questionClick;
+        answers.appendChild(button);
+    });
+}
