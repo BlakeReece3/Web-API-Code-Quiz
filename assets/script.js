@@ -80,8 +80,8 @@ function showQuestion() {
 }
 
 function checkAnswer() {
-    var userAnswer = this.getAttribute('value');
-    if (userAnswer === questions[currentQuestion].answer) {
+   
+    if (questions[currentQuestion].answer === this.value) {
         
     } else {
         timerCount -= 10; 
